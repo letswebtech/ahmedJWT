@@ -1,5 +1,5 @@
 {
-  "name": "ahmedJWT",
+  "name": "ahmedjwt",
   "version": "1.0.0",
   "description": "A package inspired by Tymon jWT",
   "main": "index.js",
