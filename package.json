@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "A package inspired by Tymon jWT",
   "main": "index.js",
-  "files" : ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "tsc": "tsc",
     "start": "node  dist/app.js",
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "prepare" : "npm run build",
-    "prepublishOnly" : "npm test && npm run lint",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
