@@ -5,7 +5,7 @@ node_modules/
 db/
 node_modules/
 npm-debug.log
-
+/lib
 # Laravel 4 specific
 bootstrap/compiled.php
 app/storage/
